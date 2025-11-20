@@ -17,10 +17,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'OdontoPRO',
-  description: 'Sua clínica odontológica em um click',
+  title: 'OdontoPRO -Encontre os melhores profissionais em um único local!',
+  description:
+    'Nós somos uma plataforma para profissionais da saúde com foco em agilizar seu atendimento de forma simplificada e organizada.',
   icons: {
     icon: '/favicon.svg',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+  },
+  openGraph: {
+    title: 'OdontoPRO -Encontre os melhores profissionais em um único local!',
+    description:
+      'Nós somos uma plataforma para profissionais da saúde com foco em agilizar seu atendimento de forma simplificada e organizada.',
+    images: [`${process.env.NEXT_PUBLIC_HOST_URL}/odonto-pro-logo.png`],
   },
 };
 
