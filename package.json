@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "prisma geberate && npx prisma migrate deploy && next build --webpack",
+    "build": "prisma generate && npx prisma migrate deploy && next build --webpack",
     "start": "next start",
     "lint": "eslint",
     "stripe:listen": "stripe listen --forward-to localhost:3000/api/webhook"
