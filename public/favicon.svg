@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <!-- Background circle -->
+    <circle cx="32" cy="32" r="32" fill="#10b981"/>
+
+    <!-- Tooth icon in white -->
+    <g transform="translate(20, 16)">
+        <path d="M 12 2 Q 8 0, 4 2 Q 0 6, 0 14 Q 0 24, 4 32 Q 6 36, 9 36 Q 11 36, 11 32 L 11 16 Q 11 12, 12 12 Q 13 12, 13 16 L 13 32 Q 13 36, 15 36 Q 18 36, 20 32 Q 24 24, 24 14 Q 24 6, 20 2 Q 16 0, 12 2 Z"
+              fill="white"
+              stroke="#f0fdf4"
+              stroke-width="0.5"/>
+        <!-- Highlight -->
+        <ellipse cx="8" cy="10" rx="2" ry="3" fill="#f0fdf4" opacity="0.5"/>
+    </g>
+</svg>
