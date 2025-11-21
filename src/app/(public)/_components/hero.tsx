@@ -15,7 +15,7 @@ export function Hero() {
               Nós somos uma plataforma para profissionais da saúde com foco em
               agilizar seu atendimento de forma simplificada e organizada.
             </p>
-            <Button className="bg-emerald-500 hover:bg-emerald-400 w-fit px-6 font-semibold">
+            <Button className="bg-emerald-500 hover:bg-emerald-400 w-fit px-6 font-semibold hidden">
               Encontre uma clínica
             </Button>
           </article>
